@@ -8,7 +8,7 @@ export default Ember.Route.extend({
       owner: 'Veruca Salt',
       city: 'San Francisco',
       propertyType: 'Estate',
-      bedroom: 15,
+      bedrooms: 15,
       image: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg',
       description: 'This grand old mansion sits on over 100 acres of rolling hilss and dense redwood forests'
 
@@ -31,7 +31,6 @@ export default Ember.Route.extend({
       bedrooms: 3,
       image: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg',
       description: 'Convenience is at your doorstep with this charming downtown rental. Great restaurants and active night life are within a few feet.'
-
     }];
   }
 });
